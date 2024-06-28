@@ -73,7 +73,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   height: 80px;
-  background: rgba(25, 28, 31, 0.8);
+  background: rgba(159, 183, 185, 0.8);
 }
 
 #header.header-transparent {
@@ -82,7 +82,7 @@ h6 {
 
 #header.header-scrolled {
   height: 60px;
-  background: rgba(25, 28, 31, 0.8);
+  background: rgba(159, 183, 185, 0.8);
 }
 
 /*--------------------------------------------------------------
@@ -363,6 +363,7 @@ h6 {
 
 #hero .btn-scroll {
   transition: 0.4s;
+  top: 85%
   color: rgba(255, 255, 255, 0.6);
   animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
@@ -603,11 +604,6 @@ section {
   color: #82909c;
 }
 
-.about .image {
-  background: url("../img/me.jpg") center center no-repeat;
-  background-size: cover;
-  min-height: 500px;
-}
 
 .about .skills-content {
   margin-top: 30px;
@@ -1371,7 +1367,7 @@ section {
     object-fit: cover; /* Asegura que la imagen cubra completamente el área sin deformarse */
     position: absolute; /* Posicionamiento absoluto respecto a su contenedor relativo */
     left: 50%; /* Centra la imagen horizontalmente */
-    top: 87%; /* Ajusta esto según donde quieras la imagen verticalmente */
+    top: 80%; /* Ajusta esto según donde quieras la imagen verticalmente */
     transform: translate(-50%, -50%); /* Alinea exactamente al centro del porcentaje definido */
     border: 5px solid white; /* Opcional: añade un borde blanco */
     box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Opcional: añade sombra para destacar la imagen */
