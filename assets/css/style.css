@@ -1371,3 +1371,33 @@ section {
     border: 5px solid white; /* Opcional: añade un borde blanco */
     box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Opcional: añade sombra para destacar la imagen */
 }
+/*--------------------------------------------------------------
+# about me  skills
+--------------------------------------------------------------*/
+.about-skills {
+  display: flex;
+  margin: 20px;
+}
+
+.about-me, .skills {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-me h2, .skills h2 {
+  color: #333; /* Cambia esto según tu paleta de colores */
+  margin-bottom: 10px;
+}
+
+.skill-item {
+  margin-top: 10px;
+  background: #f0f0f0; /* Fondo para los items de habilidades */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Hero Image Circle
+--------------------------------------------------------------*/
