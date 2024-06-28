@@ -1395,6 +1395,16 @@ section {
   padding: 10px;
   border-radius: 5px;
 }
+.container {
+  width: 80%; /* o el ancho que prefieras */
+  margin: auto; /* centra el contenedor horizontalmente */
+  display: flex;
+  justify-content: space-between; /* asegura que los elementos internos estén distribuidos equitativamente */
+}
+.about-me h2, .skills h2 {
+  font-family: 'Lora', serif;
+}
+
 
 
 
