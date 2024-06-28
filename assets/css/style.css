@@ -324,7 +324,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(159, 183, 185, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -348,8 +348,8 @@ h6 {
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
-  font-family: "Satisfy", serif;
-  color: #fff;
+  font-family: "Cinzel Decorative", serif;
+  color: #ffff;
 }
 
 #hero h2 {
@@ -1365,13 +1365,13 @@ section {
 # Hero Image Circle
 --------------------------------------------------------------*/
 .hero-image {
-    width: 120px; /* Ajusta el tamaño según necesites */
-    height: 120px; /* Debe ser igual al ancho para que sea un círculo perfecto */
+    width: 150px; /* Ajusta el tamaño según necesites */
+    height: 150px; /* Debe ser igual al ancho para que sea un círculo perfecto */
     border-radius: 50%; /* Esto hace que la imagen sea circular */
     object-fit: cover; /* Asegura que la imagen cubra completamente el área sin deformarse */
     position: absolute; /* Posicionamiento absoluto respecto a su contenedor relativo */
     left: 50%; /* Centra la imagen horizontalmente */
-    top: 80%; /* Ajusta esto según donde quieras la imagen verticalmente */
+    top: 87%; /* Ajusta esto según donde quieras la imagen verticalmente */
     transform: translate(-50%, -50%); /* Alinea exactamente al centro del porcentaje definido */
     border: 5px solid white; /* Opcional: añade un borde blanco */
     box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Opcional: añade sombra para destacar la imagen */
