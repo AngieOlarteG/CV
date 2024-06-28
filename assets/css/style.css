@@ -404,7 +404,7 @@ h6 {
 
 /*--------------------------------------------------------------
 
-.hero-image {
+#hero .hero-image {
     width: 120px; /* Ajusta el tamaño según necesites */
     height: 120px; /* Debe ser igual al ancho para que sea un círculo perfecto */
     border-radius: 50%; /* Esto hace que la imagen sea circular */
