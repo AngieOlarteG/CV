@@ -662,7 +662,7 @@ section {
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   color: #ffb727;
   margin-bottom: 10px;
@@ -699,6 +699,13 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #82909c;
+}
+.resume .resume-item p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.resume .resume-title, .resume .resume-item h4, .resume .resume-item p {
+  font-family: 'Lora', serif;
 }
 
 
