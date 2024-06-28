@@ -363,7 +363,6 @@ h6 {
 
 #hero .btn-scroll {
   transition: 0.4s;
-  top: 85%
   color: rgba(255, 255, 255, 0.6);
   animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
